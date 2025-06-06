@@ -53,8 +53,7 @@ body {
 
 .hamburger {
   display: none;
-  font-size: 2rem;
-  cursor: pointer;
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {
@@ -79,6 +78,11 @@ body {
 
 .hamburger {
   display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  color:rgba(21, 18, 199, 0.5);
+  top: 20px;
+  right: 20px;
 }
 }
  
