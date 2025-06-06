@@ -155,6 +155,18 @@ body {
 
 }
 
+.container-about {
+   margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media(min-width:768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
+}
 .about-text {
   max-width: 600px;
 }
@@ -239,7 +251,7 @@ img:hover {
   transform: translateZ(20px);
 }
 
-.container {
+.container-contact {
   margin-left: 1rem;
   margin-right: 1rem;
 }
