@@ -257,6 +257,24 @@ img:hover {
   margin-bottom: 25px;
 }
 
-html {
-  scroll-behavior: smooth;
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: rgba(16, 113, 183, 0.85);
+    padding: 1rem;
+    border-radius: 10px;
+    gap: 15px;
+  }
+}
+
+.nav-links show {
+  display: flex;
+}
+
+.hamburger {
+  display: block;
 }
