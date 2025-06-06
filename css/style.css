@@ -57,10 +57,6 @@ body {
   z-index: 9999;
 }
 
-.hidden {
-  display: none;
-}
-
 @media (max-width: 768px) {
   
 .nav-links {
@@ -74,7 +70,7 @@ body {
   border-radius: 10px;
   gap: 15px;
   width: max-content;
-  z-index: 1000;
+  z-index: 9999;
   }
 
 .nav-links.active {
