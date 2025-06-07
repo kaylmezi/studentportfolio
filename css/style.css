@@ -131,6 +131,16 @@ header, section {
   background: transparent;
 }
 
+
+@media (max-width: 768px) {
+
+.profile-section {
+  margin-top: 30px;
+  padding: 100px 100px;
+  background: transparent;
+}
+}
+
 .profile-content {
   display: flex;
   align-items: center;
@@ -245,7 +255,7 @@ header, section {
 
 #about {
   padding: 150px 50px;
-  margin-top: 150px;
+  margin-top: 200px;
   text-align: center;
   display: flex;
   justify-content: center;
